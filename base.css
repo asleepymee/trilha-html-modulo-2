@@ -1,8 +1,9 @@
 html, body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #1E4272;
     display: flex;
     justify-content: center;
 }
@@ -11,28 +12,90 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: #1E4272;
+    padding: 150px 20px 0px;
+    color: white;
 }
+
+.menu ul li{
+    padding: 15px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgba(5, 108, 108, 0);
     min-height: 150px;
 }
+
 .content {
-    background-color: white;
+    background-color: rgb(234, 250, 255);
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #1E4272;
     min-height: 150px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+table, th, td{
+    width: 980px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(172, 229, 255);
+}
+
+tr:hover{
+    background-color: rgb(172, 229, 255);
+    cursor: pointer;
+}
+
+form.contact{
+    padding: 12px 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#info{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: inline-block;
+    width: 930px;
+    height: 650px;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid;
+    border-radius: 30px;
 }
